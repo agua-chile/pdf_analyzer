@@ -44,7 +44,7 @@ Special thanks to IBM for providing comprehensive learning materials on Retrieva
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/agua-chile/pdf_analyzer
    cd pdf_analyzer
    ```
 
