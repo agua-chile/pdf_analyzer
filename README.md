@@ -48,18 +48,12 @@ Special thanks to IBM for providing comprehensive learning materials on Retrieva
    cd pdf_analyzer
    ```
 
-2. **Create and activate virtual environment**
-   ```bash
-   python -m venv env/.venv
-   source env/.venv/bin/activate  # On Windows: env\.venv\Scripts\activate
-   ```
-
-3. **Install dependencies**
+2. **Create and activate virtual environment and install dependencies**
    ```bash
    chmod +x setup.sh && ./setup.sh
    ```
 
-4. **Set up environment variables**
+3. **Set up environment variables**
    
    Create a `.env` file in the `env/` directory:
    ```
