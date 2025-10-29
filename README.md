@@ -129,7 +129,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Support
 
 For questions or issues:
-- Check the error logs for debugging information
+- Check the error traceback for debugging information
 - Ensure your IBM Watsonx credentials are correctly configured
 - Verify that all dependencies are properly installed
 
