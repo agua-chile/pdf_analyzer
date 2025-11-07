@@ -50,6 +50,7 @@ Special thanks to IBM for providing comprehensive learning materials on Retrieva
 
 2. **Create and activate virtual environment and install dependencies**
    ```bash
+   cd env
    chmod +x setup.sh && ./setup.sh
    ```
 
