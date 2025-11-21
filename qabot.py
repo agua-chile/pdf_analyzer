@@ -15,7 +15,8 @@ from dotenv import load_dotenv
 load_dotenv('env/.env')
 
 # Local imports
-from error_handling import handle_error
+from utils import handle_error
+from utils import list_ibm_models
 
 
 # Global variables
@@ -29,9 +30,9 @@ PROJECT_ID = os.getenv('PROJECT_ID')
 
 # Validate that required environment variables are set
 if not APIKEY:
-    raise ValueError("APIKEY environment variable is not set. Please check your .env file.")
+    raise ValueError('APIKEY environment variable is not set. Please check your .env file.')
 if not PROJECT_ID:
-    raise ValueError("PROJECT_ID environment variable is not set. Please check your .env file.")
+    raise ValueError('PROJECT_ID environment variable is not set. Please check your .env file.')
 GENERATION_PARAMETERS = {
     GenParams.MAX_NEW_TOKENS: 512,                      # Specify the max tokens you want to generate
     GenParams.TEMPERATURE: 0.5,                         # This randomness or creativity of the model's responses

@@ -1,12 +1,11 @@
 # Library imports
+from datetime import date
 import traceback
 import sys
 from textwrap import indent
 from colorama import Fore, Style, init
-
-
-# Initialize Colorama (auto-reset ensures colors don't 'leak')
-init(autoreset=True)
+init(autoreset=True)    # Initialize Colorama (auto-reset ensures colors don't 'leak')
+import requests
 
 
 def handle_error(exc: Exception, msg: str = ''):
