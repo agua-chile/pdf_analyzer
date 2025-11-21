@@ -5,7 +5,7 @@ A Python application that uses IBM Watsonx AI to analyze PDF documents and answe
 ## Author
 
 **Agua Chile**
-- GitHub: [@aguachile](https://github.com/aguachile)
+- GitHub: [@agua_chile](https://github.com/aguachile)
 - Project: pdf_analyzer
 
 ## Acknowledgements
